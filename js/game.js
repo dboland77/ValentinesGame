@@ -743,21 +743,21 @@ function iHeartYou(){
 	if(window.location.hash){
 		vtext.textContent = encryptString(decodeURIComponent(window.location.hash).substring(1));
 	}else{
-		vtext.textContent = "a lovely message from me to you <3";
+		vtext.textContent = "Mhairi I don't hate you. <3";
 	}
 
 	setTimeout(function(){
 		vtext.style.letterSpacing = "3px";
 	},10);
 
-	// After 9 seconds, swipe down to CREDITS.
-	// No replay. Fuck it.
-	setTimeout(function(){
-		document.getElementById("whole_container").style.top = "-200%";
-	},7300);
-	setTimeout(function(){
-		yourMessage.focus();
-	},8500);
+	// // After 9 seconds, swipe down to CREDITS.
+	// // No replay. Fuck it.
+	// setTimeout(function(){
+	// 	document.getElementById("whole_container").style.top = "-200%";
+	// },7300);
+	// setTimeout(function(){
+	// 	yourMessage.focus();
+	// },8500);
 
 }
 
@@ -902,7 +902,7 @@ window.LEVEL_CONFIG = [
 			{x:0,y:150,radius:100},
 			{x:300,y:150,radius:100}
 		],
-		countdown:90
+		countdown:130
 	},
 
 	// HEART
